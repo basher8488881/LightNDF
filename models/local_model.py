@@ -6,7 +6,11 @@ import torch.nn.functional as F
 import numpy as np 
 
 """
-LightNDF Implementation.  
+This implementation is adopted from following study. 
+Chibane, Julian, and Gerard Pons-Moll. 
+"Neural unsigned distance fields for implicit function learning." 
+Advances in Neural Information Processing Systems 33 (2020): 21638-21652.
+
 """
 
 class LightNDF(nn.Module):
