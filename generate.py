@@ -10,7 +10,11 @@ import trimesh
 import numpy as np
 from tqdm import tqdm
 """
-This implementation is adopted from NDF- Neural Unsigned Distance Fields. 
+This implementation is adopted from following study. 
+Chibane, Julian, and Gerard Pons-Moll. 
+"Neural unsigned distance fields for implicit function learning." 
+Advances in Neural Information Processing Systems 33 (2020): 21638-21652.
+
 """
 cfg = cfg_loader.get_config()
 
