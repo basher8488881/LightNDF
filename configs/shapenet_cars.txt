@@ -1,0 +1,6 @@
+exp_name = shapenet_cars
+data_dir = ./datasets/02958343
+split_file = ./datasets/split_shapenet_cars.npz
+input_data_glob = /**/model_normalized.obj
+sample_std_dev = [0.08, 0.02, 0.003]
+sample_ratio = [0.01, 0.49, 0.5]
