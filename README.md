@@ -1,5 +1,5 @@
 # Convolutional Neural Network-based Efficient Dense Point Cloud Generation using Unsigned Distance Fields
-Dense Point Cloud Generation
+## Dense Point Cloud Generation
 @misc{https://doi.org/10.48550/arxiv.2203.11537,  
   author = {Basher, Abol and Boutellier, Jani},
   title = {Convolutional Neural Network-based Efficient Dense Point Cloud Generation using Unsigned Distance Fields},
