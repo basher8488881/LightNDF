@@ -20,7 +20,7 @@ cfg = cfg_loader.get_config()
 
 #device = torch.device("cpu")
 device = torch.device("cuda")
-net = model.LightNDF(device)
+net = model.LightNDF()
 
 dataset = voxelized_data.VoxelizedDataset('test',
                                           res=cfg.input_res,
