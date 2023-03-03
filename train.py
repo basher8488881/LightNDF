@@ -11,7 +11,7 @@ Advances in Neural Information Processing Systems 33 (2020): 21638-21652.
 
 """
 cfg = cfg_loader.get_config()
-net = model.LightNDF(device=torch.device("cuda"))
+net = model.LightNDF()
 if cfg.gpu == "auto":
     deviceIDs = GPUtil.getAvailable(order='memory', limit=1, maxLoad=0.5, maxMemory=0.5, includeNan=False, excludeID=[],
                                     excludeUUID=[])
